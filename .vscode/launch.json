@@ -6,7 +6,7 @@
         //     "type": "lldb",
         //     "request": "launch",
         //     "program": "/Applications/REAPER64.app",
-        //     "args": ["${workspaceFolder}/MyNewPlugin/MyNewPlugin.RPP"],
+        //     "args": ["${workspaceFolder}/Synthia1000/Synthia1000.RPP"],
         //     "preLaunchTask": "build VST2 Debug",
         // },
         // {
@@ -14,7 +14,7 @@
         //     "type": "lldb",
         //     "request": "launch",
         //     "program": "/Applications/REAPER64.app",
-        //     "args": ["${workspaceFolder}/MyNewPlugin/MyNewPlugin.RPP"],
+        //     "args": ["${workspaceFolder}/Synthia1000/Synthia1000.RPP"],
         //     "preLaunchTask": "build VST3 Debug",
         // },
         // {
@@ -22,14 +22,14 @@
         //     "type": "lldb",
         //     "request": "launch",
         //     "program": "/Applications/REAPER64.app",
-        //     "args": ["${workspaceFolder}/MyNewPlugin/MyNewPlugin.RPP"],
+        //     "args": ["${workspaceFolder}/Synthia1000/Synthia1000.RPP"],
         //     "preLaunchTask": "build AUv2 Debug",
         // },
         {
             "name": "(lldb) Launch APP",
             "type": "lldb",
             "request": "launch",
-            "program": "~/Applications/MyNewPlugin.app",
+            "program": "~/Applications/Synthia1000.app",
             "preLaunchTask": "build APP Debug"
         }
     ]

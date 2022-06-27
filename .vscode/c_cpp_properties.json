@@ -1,8 +1,8 @@
 {
     "env": {
         "commonIncludePaths": [
-            "${workspaceFolder}/MyNewPlugin/.",
-            "${workspaceFolder}/MyNewPlugin/**",
+            "${workspaceFolder}/Synthia1000/.",
+            "${workspaceFolder}/Synthia1000/**",
             "${workspaceFolder}/iPlug2/WDL/**",
             "${workspaceFolder}/iPlug2/IPlug/**",
             "${workspaceFolder}/iPlug2/IGraphics/**",

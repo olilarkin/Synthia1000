@@ -7,7 +7,7 @@ on:
       - "v*"
 
 env:
-  PROJECT_NAME: MyNewPlugin
+  PROJECT_NAME: Synthia1000
   URL: https://${{github.repository_owner}}.github.io/${{github.event.repository.name}}/
 
 jobs:
@@ -40,8 +40,8 @@ jobs:
         run: |
           git clone https://github.com/emscripten-core/emsdk.git
           cd emsdk
-          ./emsdk install latest 
-          ./emsdk activate latest
+          ./emsdk install 2.0.3
+          ./emsdk activate 2.0.3
 
       - name: Get WAM SDKS
         run: |

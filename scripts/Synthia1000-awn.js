@@ -14,7 +14,7 @@ class Synthia1000Controller extends WAMController
   }
 
   static importScripts (actx) {
-    var origin = "/";
+    var origin = "https://olilarkin.github.io/Synthia1000/";
 
     return new Promise( (resolve) => {
       actx.audioWorklet.addModule(origin + "scripts/Synthia1000-wam.js").then(() => {
